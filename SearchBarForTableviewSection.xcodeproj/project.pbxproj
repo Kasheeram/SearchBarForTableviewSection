@@ -15,6 +15,7 @@
 		9120D4002014D7B4001A8563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9120D3FE2014D7B4001A8563 /* LaunchScreen.storyboard */; };
 		9120D40B2014D7B4001A8563 /* SearchBarForTableviewSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120D40A2014D7B4001A8563 /* SearchBarForTableviewSectionTests.swift */; };
 		9120D4162014D7B4001A8563 /* SearchBarForTableviewSectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120D4152014D7B4001A8563 /* SearchBarForTableviewSectionUITests.swift */; };
+		9120D4242014D974001A8563 /* BlockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120D4232014D974001A8563 /* BlockTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9120D4112014D7B4001A8563 /* SearchBarForTableviewSectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarForTableviewSectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9120D4152014D7B4001A8563 /* SearchBarForTableviewSectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarForTableviewSectionUITests.swift; sourceTree = "<group>"; };
 		9120D4172014D7B4001A8563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9120D4232014D974001A8563 /* BlockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				9120D3F22014D7B4001A8563 /* AppDelegate.swift */,
 				9120D3F42014D7B4001A8563 /* ViewController.swift */,
+				9120D4232014D974001A8563 /* BlockTableViewCell.swift */,
 				9120D3F62014D7B4001A8563 /* Main.storyboard */,
 				9120D3FC2014D7B4001A8563 /* Assets.xcassets */,
 				9120D3FE2014D7B4001A8563 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9120D3FB2014D7B4001A8563 /* SearchBarForTableviewSection.xcdatamodeld in Sources */,
+				9120D4242014D974001A8563 /* BlockTableViewCell.swift in Sources */,
 				9120D3F52014D7B4001A8563 /* ViewController.swift in Sources */,
 				9120D3F32014D7B4001A8563 /* AppDelegate.swift in Sources */,
 			);
